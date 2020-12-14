@@ -1,0 +1,108 @@
+h1,h4 {
+    color: #fffffe;
+}
+
+body {
+    background-color: #232946;
+    font-size: 16px
+}
+
+p {
+    color: #fffffe;
+}
+.button{
+    color: #eebbc3;
+}
+.button text {
+    color: #232946;
+}
+.headline{
+    color: #fffffe;
+}
+
+header {
+    color: #fffffe;
+    margin: 10px;
+    text-align: left;
+    font-size: 1.8em;
+    display: block;
+}
+#navbar{
+   position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+#navbar ul {
+    height: 90%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+ul {
+/*  list-style-type: none;*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  width: 200px;*/
+  background-color: #232946;
+/*  border: 1px solid #555;*/
+}
+
+li a {
+  display: block;
+  color: #b8c1ec;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #b8c1ec;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color: #eebbc3;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #eebbc3;
+  color: white;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+article ul li {
+    color: #fffffe;
+    text-align: justify;
+    border: none;
+}
+
+/*Card CSS*/
+.card-text {
+    color: #232946;
+}
+
+/*table css*/
+th,td{
+    color: #fffffe ;
+}
+
+/*Media query*/
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  div.example {
+    font-size: 18px;
+  }
+}
